@@ -711,7 +711,7 @@ ul:hover{
             height: 1080px;
         }
         
-         #card1{
+         #card-1{
             width: 350px;
             height: 500px;
             position: absolute;
@@ -719,7 +719,7 @@ ul:hover{
             margin-left: 200px;
         }
         
-         #card2{
+         #card-2{
             width: 350px;
             height: 500px;
             position: absolute;
