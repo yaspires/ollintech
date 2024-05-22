@@ -433,7 +433,7 @@ ul:hover{
             height: 500px;
             position: absolute;
             margin-top: 150px;
-            margin-left: 200px;
+            margin-left: 300px;
         }
         
         #icon1{
@@ -450,7 +450,7 @@ ul:hover{
             height: 500px;
             position: absolute;
             margin-top: 150px;
-            margin-left: 600px;
+            margin-left: 800px;
         }
         
         #icon2{
@@ -467,15 +467,7 @@ ul:hover{
             height: 500px;
             position: absolute;
             margin-top: 150px;
-            margin-left: 1000px;
-        }
-
-        #card4{
-            width: 350px;
-            height: 500px;
-            position: absolute;
-            margin-top: 150px;
-            margin-left: 1400px;
+            margin-left: 1300px;
         }
         
         #icon3{
@@ -518,7 +510,7 @@ ul:hover{
             font-weight:800;
             position:absolute;
             margin-left: 820px;
-            margin-top: 70px;
+            margin-top: 50px;
         }
         
         #traco{
@@ -719,6 +711,37 @@ ul:hover{
             height: 1080px;
         }
         
+         #card1{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 200px;
+        }
+        
+         #card2{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 600px;
+        }
+        
+        #card-3{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 1000px;
+        }
+
+        #card-4{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 1400px;
+        }
        
 
         
