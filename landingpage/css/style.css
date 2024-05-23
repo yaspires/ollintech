@@ -1,0 +1,1483 @@
+#wrapper{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    margin-left: -8px;
+    margin-top: -8px;
+    position: absolute;
+    }
+
+@media only screen and (min-width: 992px) {
+
+#content_home{
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+}
+
+#navbar{
+    background-color: #1b1b1b;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 1;
+    box-shadow: 0px 0px 3px 2px #D5238E;
+}
+
+#logo1{
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 900px;
+    height: 60px;
+    background-image: url("../imgs/logo_navbar.png");
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#nav{
+    margin-left: 900px;
+    width: 350px;
+    height: 30px;
+}
+
+li{
+    display: flex;
+   
+}
+
+ul{
+    margin-left: 10px;
+    color: #f9f9f9;
+    font-size: 28px;
+    font-weight:530;
+    padding: 5px 20px 5px 20px;
+    font-family: sans-serif;
+}
+
+ul:hover{
+    background-color: #D5238E;
+    border-radius: 30px;
+}
+
+
+/* página home */
+
+#home{
+    background-color: #262626;
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+
+#logo{
+
+    background-image: url("../imgs/logo-1.png");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 500px;
+    margin-top: 265px;
+    margin-left: 270px;
+    position: absolute;
+}
+
+#title{
+    width: 500px;
+    height: 00px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    font-weight:800;
+    position:absolute;
+    margin-left: 830px;
+    margin-top: 180px;
+    padding-top: 30px;
+}
+
+#txt{
+    width: 370px;
+    height: 300px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 440px;
+}
+
+#bg{
+    background-image: url("../imgs/ondas.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 880px;
+    width: 100%;
+    height: 730px;
+}
+
+
+/* página redirecionamento */
+
+#redirect{
+    background-color: #212121;
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+
+#card1{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#icon1{
+    background-image: url("../imgs/create.png");
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+#card2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 590px;
+}
+
+#icon2{
+    background-image: url("../imgs/people.png");
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+#card3{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1025px;
+}
+
+#icon3{
+    background-image: url("../imgs/bag.png");
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+#text1{
+    width: 300px;
+    margin-left: 25px;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 310px;
+    position: absolute;
+    p{font-size: 21px};
+    h2{font-size: 26px;
+    font-weight: 800;};
+}
+
+/* página sobre */
+
+#sobre{
+    background-color: #2b2b2b;
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+
+#title_1{
+    width: 250px;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    font-weight:800;
+    position:absolute;
+    margin-left: 650px;
+    margin-top: 25px;
+}
+
+#traco{
+    width: 240px;
+    height: 7px; 
+    background-color: #D5238E;
+    border-radius: 50px;
+    position:absolute;
+    margin-left: 640px;
+    margin-top: 105px;
+}
+
+#text2{
+    width: 1180px;
+    margin-left: 170px;
+    font-size: 25px;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    line-height: 45px;
+    text-align: justify;
+    margin-top: 120px;
+    position: absolute;
+}
+
+#logo2{
+    background-image: url(../imgs/logo-2.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 400px;
+    height: 300px;
+    margin-top: 430px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+#divisao{
+    width: 8px;
+    height: 330px; 
+    background-color: #D5238E;
+    border-radius: 50px;
+    position:absolute;
+    margin-left: 748px;
+    margin-top: 310px;
+}
+
+#mockup{
+    background-image: url(../imgs/mockup_ollin.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 400px;
+    height: 300px;
+    margin-top: 340px;
+    margin-left: 900px;
+    position: absolute;
+}
+
+/* página paleta */
+
+#paleta{
+    background-color: #212121;
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+
+#title_2{
+    width: 400px;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    font-weight:800;
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 25px;
+}
+
+#traco_2{
+    width: 410px;
+    height: 7px; 
+    background-color: #D5238E;
+    border-radius: 50px;
+    position:absolute;
+    margin-left: 535px;
+    margin-top: 110px;
+}
+
+#text2{
+    width: 1250px;
+    margin-left: 110px;
+    font-size: 22px;
+    margin-top: 125px;
+    line-height: 35px;
+    position: absolute;
+}
+
+#paleta-img{
+    background-image: url(../imgs/paleta.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    margin-top: 300px;
+    margin-left: 460px;
+    position: absolute;
+}
+
+
+
+/* página tipografia */
+
+#tipografia{
+    background-color: #2b2b2b;
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+
+#title_3{
+    width: 400px;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    font-weight:800;
+    position:absolute;
+    margin-left: 600px;
+    margin-top: 25px;
+}
+
+#traco_3{
+    width: 270px;
+    height: 7px; 
+    background-color: #D5238E;
+    border-radius: 50px;
+    position:absolute;
+    margin-left: 595px;
+    margin-top: 80px;
+}
+
+#text2{
+    width: 1250px;
+    margin-left: 110px;
+    font-size: 22px;
+    margin-top: 125px;
+    line-height: 35px;
+    position: absolute;
+}
+
+#tipografia_icon{
+    background-image: url(../imgs/tipografia_icon.png);
+    background-size: 750px;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 400px;
+}
+
+
+/* página integrantes */
+
+#integrantes{
+    background-color: #212121;
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+
+#title_4{
+    width: 250px;
+    font-size: 38px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    font-weight:800;
+    position:absolute;
+    margin-left: 620px;
+    margin-top: 100px;
+}
+
+#traco_4{
+    width: 330px;
+    height: 7px; 
+    background-color: #D5238E;
+    border-radius: 50px;
+    position:absolute;
+    margin-left: 610px;
+    margin-top: 160px;
+}
+
+ #card-1{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 140px;
+}
+
+ #card-2{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 450px;
+}
+
+#card-3{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 750px;
+}
+
+#card-4{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 1050px;
+}
+
+#icon-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D5238E;
+    margin-top: 70px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+
+
+/* página quaggio */
+
+#quaggio{
+    background-color: #2b2b2b;
+    position: relative;
+    width: 100%;
+    height: 730px;
+}
+
+#title_5{
+    width: 250px;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    font-weight:800;
+    position:absolute;
+    margin-left: 670px;
+    margin-top: 40px;
+}
+
+#traco_5{
+    width: 220px;
+    height: 7px; 
+    background-color: #D5238E;
+    border-radius: 50px;
+    position:absolute;
+    margin-left: 660px;
+    margin-top: 90px;
+}
+
+#lg_quaggio{
+    background-image: url(../imgs/logo_quaggio.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 360px;
+}
+
+#mockup_quaggio{
+    background-image: url(../imgs/mockup_quaggio.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 950px;
+}
+
+#txt_1{
+    width: 520px;
+    height: 400px;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 140px;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+#txt_2{
+    width: 520px;
+    height: 400px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 200px;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 33px;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: #1b1b1b;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+#box1{
+    width: 700px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 425px;
+    position: absolute;
+}
+
+#logo_3{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    background-image: url(../imgs/Frame\ 14.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#divisao_2{
+    width: 6px;
+    height: 120px; 
+    background-color: #D5238E;
+    border-radius: 50px;
+    position:absolute;
+    margin-left: 345px;
+    margin-top: 10px;
+}
+
+#text_4{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 13px;
+    letter-spacing: 1px;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+#box2{
+    width: 700px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 30px;
+    display: flex;
+}
+
+#info_card{
+    width: 300px;
+    height: 100px;
+    margin-left: 10px;
+    position: absolute;
+}
+#info_card2{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-left: 400px;
+}
+#info_card3{
+    width: 300px;
+    height: 100px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 100px;
+}
+#info_card4{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+#icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#info{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 80px;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+    font-size: 18px;
+
+}
+
+#copyright{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 190px;
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+}
+
+@media only screen and (max-width:1920px) and (min-width: 1600px){
+    /* página home */
+    
+    #home{
+        height: 810px;
+    }
+    
+    #logo{
+        background-size: 500px;
+        margin-top: 280px;
+        margin-left: 300px;
+    }
+    
+    #title{
+        font-size: 58px;
+
+        margin-left: 920px;
+        margin-top: 170px;
+    }
+    
+    #txt{
+        margin-left: 920px;
+        margin-top: 480px;
+    }
+    
+    #bg{
+        background-size: 950px;
+        height: 810px;
+    }
+    
+    
+    /* página redirecionamento */
+    
+    #redirect{
+        height: 810px;
+    }
+    
+    #card1{
+        margin-left: 200px;
+    }
+    
+    #icon1{
+        background-size: 230px;
+        width: 230px;
+        margin-left: 75px;
+    }
+    
+    #card2{
+        margin-left: 700px;
+    }
+    
+    #icon2{
+        background-repeat: no-repeat;
+        background-size: 230px;
+        width: 230px;
+        margin-top: 80px;
+        margin-left: 65px;
+    }
+    
+    #card3{
+        width: 350px;
+        height: 500px;
+        margin-top: 150px;
+        margin-left: 1170px;
+    }
+    
+    #icon3{
+        background-repeat: no-repeat;
+        background-size: 230px;
+        width: 230px;
+        margin-top: 80px;
+        margin-left: 65px;
+    }
+    
+    #text1{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 310px;
+    }
+
+    
+    /* página sobre */
+    
+    #sobre{
+        height: 810px;
+    }
+    
+    #title_1{
+        font-size: 37px;
+        margin-left: 720px;
+        margin-top: 30px;
+    }
+    
+    #traco{
+        width: 260px;
+        margin-left: 715px;
+        margin-top: 120px;
+    }
+
+    #logo2{
+        background-size: 320px;
+        margin-top: 440px;
+        margin-left: 300px;
+    }
+    
+    #divisao{
+        width: 8px;
+        height: 360px; 
+        margin-left: 848px;
+        margin-top: 330px;
+    }
+    
+    #mockup{
+        background-size: 330px;
+        width: 500px;
+        height: 500px;
+        margin-top: 350px;
+        margin-left: 1090px;
+    }
+    
+    /* página paleta */
+    
+    #paleta{
+        height: 810px;
+    }
+    
+    #title_2{
+        width: 400px;
+        font-size: 37px;
+        margin-left: 660px;
+        margin-top: 30px;
+    }
+    
+    #traco_2{
+        width: 410px;
+        height: 7px; 
+        margin-left: 650px;
+        margin-top: 120px;
+    }
+    
+    #text2{
+        width: 1350px;
+        margin-left: 170px;
+        font-size: 28px;
+        margin-top: 135px;
+    }
+
+    #paleta-img{
+        margin-top: 365px;
+        margin-left: 570px;
+    }
+
+    
+    /* página tipografia */
+    
+    #tipografia{
+        height: 810px;
+    }
+
+    #title_3{
+        width: 250px;
+        font-size: 37px;
+        margin-left: 700px;
+        margin-top: 50px;
+    }
+    
+    #traco_3{
+        width: 290px;
+        height: 7px; 
+        margin-left: 690px;
+        margin-top: 105px;
+    }
+
+    #tipografia_icon{
+        background-size: 900px;
+        margin-top: 330px;
+        margin-left: 450px;
+    }
+    
+    
+    /* página integrantes */
+    
+    #integrantes{
+        height: 810px;
+    }
+    
+    #title_4{
+        width: 250px;
+        font-size: 37px;
+        margin-left: 720px;
+        margin-top: 50px;
+    }
+    
+    #traco_4{
+        width: 330px;
+        height: 7px; 
+        margin-left: 708px;
+        margin-top: 100px;
+    }
+
+     #card-1{
+        width: 350px;
+        height: 500px;
+        margin-top: 230px;
+        margin-left: 175px;
+    }
+    
+     #card-2{
+        width: 350px;
+        height: 500px;
+        margin-top: 230px;
+        margin-left: 525px;
+    }
+    
+    #card-3{
+        width: 350px;
+        height: 500px;
+        margin-top: 230px;
+        margin-left: 875px;
+    }
+
+    #card-4{
+        width: 350px;
+        height: 500px;
+        margin-top: 230px;
+        margin-left: 1225px;
+    }
+
+    #icon-card{
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+   
+
+    
+    /* página quaggio */
+    
+    #quaggio{
+        height: 810px;
+    }
+
+    #title_5{
+        font-size: 37px;
+        margin-left: 760px;
+        margin-top: 80px;
+    }
+    
+    #traco_5{
+        width: 220px;
+        height: 7px; 
+        margin-left: 750px;
+        margin-top: 130px;
+    }
+
+    #lg_quaggio{
+        background-image: 325px;
+        width: 325px;
+        margin-top: 200px;
+        margin-left: 430px;
+    }
+
+    #mockup_quaggio{
+        background-image: 400px;
+        width: 400px;
+        height: 500px;
+        margin-top: 500px;
+        margin-left: 1100px;
+    }
+
+    #txt_1{
+        width: 600px;
+        height: 400px;
+        font-size: 25px;
+        line-height: 37px;
+        margin-left: 950px;
+        margin-top: 240px;
+    }
+
+    #txt_2{
+        width: 600px;
+        height: 400px;
+        line-height: 37px;
+        margin-top: 500px;
+        margin-left: 200px;
+    }
+
+    
+
+    
+    /* footer */
+    
+    #footer{
+        background-color: #1b1b1b;
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+    
+    #box1{
+        width: 700px;
+        height: 400px;
+        margin-top: 40px;
+        margin-left: 510px;
+        position: absolute;
+    }
+    
+}
+
+@media only screen and (min-width: 1920px) {
+
+        /* página home */
+        
+        #home{
+            height: 930px;
+        }
+        
+        #logo{
+            background-size: 550px;
+            width: 600px;
+            height: 500px;
+            margin-top: 310px;
+            margin-left: 300px;
+            position: absolute;
+        }
+        
+        #title{
+            width: 600px;
+            height: 00px;
+            font-size: 60px;
+            font-family: sans-serif;
+            color: #f9f9f9;
+            font-weight:800;
+            position:absolute;
+            margin-left: 1000px;
+            margin-top: 230px;
+        }
+        
+        #txt{
+            width: 400px;
+            height: 300px;
+            font-size: 28px;
+            font-family: sans-serif;
+            color: #f9f9f9;
+            font-weight: 500;
+            position: absolute;
+            margin-left: 1000px;
+            margin-top: 545px;
+        }
+        
+        #bg{
+            background-image: url("../imgs/ondas.png");
+            background-size: 1150px;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            width: 100%;
+            height: 930px;
+        }
+        
+        
+        /* página redirecionamento */
+        
+        #redirect{
+            background-color: #212121;
+            position: relative;
+            width: 100%;
+            height: 1080px;
+        }
+        
+        #card1{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 300px;
+        }
+        
+        #icon1{
+            background-image: url("../imgs/create.png");
+            background-repeat: no-repeat;
+            background-size: 250px;
+            width: 300px;
+            height: 300px;
+            margin-top: 80px;
+            margin-left: 65px;
+            position: absolute;
+        }
+        
+        #card2{
+            width: 350px;
+            height: 500px;
+            margin-top: 150px;
+            margin-left: 800px;
+        }
+        
+        #icon2{
+            background-repeat: no-repeat;
+            background-size: 250px;
+            width: 300px;
+            height: 300px;
+            margin-top: 80px;
+            margin-left: 55px;
+        }
+        
+        #card3{
+            width: 350px;
+            height: 500px;
+            margin-top: 150px;
+            margin-left: 1300px;
+        }
+        
+        #icon3{
+            background-repeat: no-repeat;
+            background-size: 250px;
+            width: 300px;
+            height: 300px;
+            margin-top: 80px;
+            margin-left: 55px;
+        }
+        
+        #text1{
+            width: 300px;
+            margin-left: 25px;
+            margin-top: 310px;
+        }
+
+        
+        /* página sobre */
+        
+        #sobre{
+            background-color: #2b2b2b;
+            position: relative;
+            width: 100%;
+            height: 1080px;
+        }
+        
+        #title_1{
+            width: 250px;
+            font-size: 38px;
+            font-family: sans-serif;
+            color: #f9f9f9;
+            font-weight:800;
+            position:absolute;
+            margin-left: 820px;
+            margin-top: 40px;
+        }
+        
+        #traco{
+            width: 270px;
+            height: 7px; 
+            background-color: #D5238E;
+            border-radius: 50px;
+            position:absolute;
+            margin-left: 810px;
+            margin-top: 130px;
+        }
+        
+        #text2{
+            width: 1450px;
+            margin-left: 245px;
+            font-size: 28px;
+            margin-top: 145px;
+        }
+
+        #logo2{
+            background-repeat: no-repeat;
+            background-size: 350px;
+            width: 400px;
+            height: 300px;
+            margin-top: 500px;
+            margin-left: 400px;
+        }
+        
+        #divisao{
+            width: 8px;
+            height: 360px; 
+            background-color: #D5238E;
+            border-radius: 50px;
+            position:absolute;
+            margin-left: 948px;
+            margin-top: 410px;
+        }
+        
+        #mockup{
+            background-image: url(../imgs/mockup_ollin.png);
+            background-repeat: no-repeat;
+            background-size: 330px;
+            width: 500px;
+            height: 500px;
+            margin-top: 440px;
+            margin-left: 1180px;
+            position: absolute;
+        }
+        
+        /* página paleta */
+        
+        #paleta{
+            background-color: #212121;
+            position: relative;
+            width: 100%;
+            height: 1080px;
+        }
+        
+        #title_2{
+            width: 400px;
+            font-size: 38px;
+            font-family: sans-serif;
+            color: #f9f9f9;
+            font-weight:800;
+            position:absolute;
+            margin-left: 760px;
+            margin-top: 30px;
+        }
+        
+        #traco_2{
+            width: 410px;
+            height: 7px; 
+            background-color: #D5238E;
+            border-radius: 50px;
+            position:absolute;
+            margin-left: 750px;
+            margin-top: 133px;
+        }
+        
+        #text2{
+            width: 1450px;
+            margin-left: 245px;
+            font-size: 28px;
+            margin-top: 145px;
+            position: absolute;
+        }
+
+        #paleta-img{
+            background-image: url(../imgs/paleta.png);
+            background-repeat: no-repeat;
+            width: 800px;
+            height: 600px;
+            margin-top: 400px;
+            margin-left: 620px;
+            position: absolute;
+        }
+
+        
+        /* página tipografia */
+        
+        #tipografia{
+            background-color: #2b2b2b;
+            position: relative;
+            width: 100%;
+            height: 1080px;
+        }
+
+        #title_3{
+            width: 250px;
+            font-size: 38px;
+            font-family: sans-serif;
+            color: #f9f9f9;
+            font-weight:800;
+            position:absolute;
+            margin-left: 820px;
+            margin-top: 50px;
+        }
+        
+        #traco_3{
+            width: 290px;
+            height: 7px; 
+            background-color: #D5238E;
+            border-radius: 50px;
+            position:absolute;
+            margin-left: 810px;
+            margin-top: 110px;
+        }
+
+        #tipografia_icon{
+            background-image: url(../imgs/tipografia_icon.png);
+            background-repeat: no-repeat;
+            background-size: 950px;
+            width: 1000px;
+            height: 500px;
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 530px;
+        }
+        
+        
+        /* página integrantes */
+        
+        #integrantes{
+            background-color: #212121;
+            position: relative;
+            width: 100%;
+            height: 1080px;
+        }
+        
+        #title_4{
+            width: 250px;
+            font-size: 38px;
+            font-family: sans-serif;
+            color: #f9f9f9;
+            font-weight:800;
+            position:absolute;
+            margin-left: 820px;
+            margin-top: 100px;
+        }
+        
+        #traco_4{
+            width: 330px;
+            height: 7px; 
+            background-color: #D5238E;
+            border-radius: 50px;
+            position:absolute;
+            margin-left: 810px;
+            margin-top: 160px;
+        }
+
+         #card-1{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 320px;
+            margin-left: 190px;
+        }
+        
+         #card-2{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 320px;
+            margin-left: 600px;
+        }
+        
+        #card-3{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 320px;
+            margin-left: 1000px;
+        }
+
+        #card-4{
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: 320px;
+            margin-left: 1400px;
+        }
+
+        #icon-card{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: #D5238E;
+            margin-top: 50px;
+            margin-left: 50px;
+            position: absolute;
+        }
+       
+
+        
+        /* página quaggio */
+        
+        #quaggio{
+            background-color: #2b2b2b;
+            position: relative;
+            width: 100%;
+            height: 1090px;
+        }
+
+        #title_5{
+            width: 250px;
+            font-size: 38px;
+            font-family: sans-serif;
+            color: #f9f9f9;
+            font-weight:800;
+            position:absolute;
+            margin-left: 850px;
+            margin-top: 80px;
+        }
+        
+        #traco_5{
+            width: 220px;
+            height: 7px; 
+            background-color: #D5238E;
+            border-radius: 50px;
+            position:absolute;
+            margin-left: 840px;
+            margin-top: 130px;
+        }
+
+        #lg_quaggio{
+            background-size: 250px;
+            margin-top: 230px;
+            margin-left: 440px;
+        }
+
+        #mockup_quaggio{
+            background-size: 450px;
+            margin-top: 500px;
+            margin-left: 1150px;
+        }
+
+        #txt_1{
+            width: 600px;
+            font-size: 25px;
+            line-height: 37px;
+            margin-left: 1050px;
+            margin-top: 220px;
+        }
+
+        #txt_2{
+            width: 600px;
+            height: 400px;
+            font-size: 25px;
+            line-height: 37px;
+            margin-top: 580px;
+            margin-left: 250px;
+        }
+
+        
+
+        
+        /* footer */
+        
+        #footer{
+            background-color: #1b1b1b;
+            position: relative;
+            width: 100%;
+            height: 500px;
+        }
+        
+        #box1{
+            width: 700px;
+            height: 400px;
+            margin-top: 40px;
+            margin-left: 610px;
+            position: absolute;
+        }
+        
+        #logo_3{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            background-image: url(../imgs/Frame\ 14.png);
+            background-size: 130px;
+            background-repeat: no-repeat;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+        
+        #divisao_2{
+            width: 6px;
+            height: 120px; 
+            background-color: #D5238E;
+            border-radius: 50px;
+            position:absolute;
+            margin-left: 345px;
+            margin-top: 10px;
+        }
+        
+        #text_4{
+            width: 300px;
+            height: 150px;
+            position: absolute;
+            margin-left: 390px;
+            margin-top: 13px;
+            letter-spacing: 1px;
+            color: #f9f9f9;
+            font-family: sans-serif;
+            font-size: 26px;
+        }
+        
+        #box2{
+            width: 700px;
+            height: 200px;
+            margin-top: 150px;
+            margin-left: 30px;
+            display: flex;
+        }
+        
+        #info_card{
+            width: 300px;
+            height: 100px;
+            margin-left: 10px;
+            position: absolute;
+        }
+        #info_card2{
+            width: 300px;
+            height: 100px;
+            position: absolute;
+            margin-left: 400px;
+        }
+        #info_card3{
+            width: 300px;
+            height: 100px;
+            margin-left: 10px;
+            position: absolute;
+            margin-top: 100px;
+        }
+        #info_card4{
+            width: 300px;
+            height: 100px;
+            position: absolute;
+            margin-left: 400px;
+            margin-top: 100px;
+        }
+        
+        #icon{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 30px;
+        }
+        
+        #info{
+            width: 150px;
+            height: 30px;
+            position: absolute;
+            margin-top: 27px;
+            margin-left: 80px;
+            color: #f9f9f9;
+            letter-spacing: 1px;
+            font-family:sans-serif;
+            font-size: 18px;
+        
+        }
+        
+        #copyright{
+            width: 400px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 190px;
+            position: absolute;
+            letter-spacing: 2px;
+            font-size: 20px;
+            color: #f9f9f9;
+            font-family: sans-serif;
+        }
+
+}
+
