@@ -1,2 +1,0 @@
-# ollintech
-website ollintech
