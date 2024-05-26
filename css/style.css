@@ -510,8 +510,35 @@
         margin-top: 100px;
     }
     
-    #icon1{
+    #icon{
         background-image: url("../imgs/map-pin.jpg");
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    #icon-1{
+        background-image: url("../imgs/phone-outgoing.jpg");
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    #icon-2{
+        background-image: url("../imgs/instagram.jpg");
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    #icon-3{
+        background-image: url("../imgs/mail.jpg");
         width: 40px;
         height: 40px;
         position: absolute;
