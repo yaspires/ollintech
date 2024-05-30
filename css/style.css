@@ -3,15 +3,15 @@
     color: #f9f9f9;
 }
 
-body{overflow-x: hidden;}
-   
+#body{color: #1c1c1c;}
+
 #wrapper{
     width: 100vw;
     height: 100vh;
-    color: #1c1c1c;
     position: absolute;
     font-size: 20px;
     text-align: justify;
+    overflow-x: hidden;
 }
 
 /* navbar */
@@ -78,7 +78,8 @@ body{overflow-x: hidden;}
     }    
 
 /*home*/
-#home{height: 100vh;}
+#home{height: 100vh;
+position: relative;}
 
 #bg{
     width: 100vw; height: 100vh;
@@ -111,7 +112,8 @@ body{overflow-x: hidden;}
 }
 
 /* Redirect */
-#redirect{height: 100vh;}
+#redirect{height: 100vh;
+    position: relative;}
 
 #card1{
     width: 250px;
@@ -131,7 +133,8 @@ body{overflow-x: hidden;}
 }
 
 /* Sobre */
-#sobre{height: 100vh;}
+#sobre{height: 100vh;
+    position: relative;}
 
 #logo2{
     position: absolute;
@@ -166,7 +169,8 @@ body{overflow-x: hidden;}
 }
 
 /* Paleta */
-#paleta{height: 100vh;}
+#paleta{height: 100vh;
+    position: relative;}
 
 #t2{width: 290px;}
 
@@ -176,7 +180,8 @@ body{overflow-x: hidden;}
 }
 
 /* Tipografia */
-#tipografia{height: 100vh;}
+#tipografia{height: 100vh;
+    position: relative;}
 
 #t3{width: 200px;}
 
@@ -186,7 +191,8 @@ body{overflow-x: hidden;}
 }
 
 /* Integrantes*/
-#integrantes{height: 100vh;}
+#integrantes{height: 100vh;
+    position: relative;}
 
 #t4{width: 230px;}
 
@@ -211,7 +217,8 @@ body{overflow-x: hidden;}
 }
 
 /* Quaggio */
-#quaggio{height: 100vh;}
+#quaggio{height: 100vh;
+    position: relative;}
 
 #t5{width: 150px;}
 
@@ -254,6 +261,27 @@ body{overflow-x: hidden;}
     #nav-icon{
         width: 0px;
         margin-left: 0;
+    }
+    
+    .content{
+        margin-left: 5vw; margin-top: 5vh;
+        width: 90vw; height: 55vh;
+        position: absolute;
+        align-content: space-around
+    }
+
+    #content_alt{
+        height: 30vh;
+    }
+
+    .title_1{
+        font-size: 16px;
+        margin-top: 6vh;
+    }
+
+    .traco{
+        height: 5px;
+        margin-top: 9vh;
     }
 
     .text2{
@@ -305,17 +333,6 @@ body{overflow-x: hidden;}
 
     #icon3{ margin-top: -5px;}
 
-    .content{
-        margin-left: 5vw; margin-top: 5vh;
-        width: 90vw; height: 55vh;
-        position: absolute;
-        align-content: space-around
-    }
-
-    #content_alt{
-        height: 30vh;
-    }
-
     #text1{ 
         p{font-size: 8px};
         h2{font-size: 11px; font-weight: 800;};
@@ -323,16 +340,6 @@ body{overflow-x: hidden;}
 
 /* sobre nós */
     #sobre{height: 60vh;}
-
-    .title_1{
-        font-size: 16px;
-        margin-top: 6vh;
-    }
-
-    .traco{
-        height: 5px;
-        margin-top: 9vh;
-    }
 
     #t1{width: 110px;}
 
@@ -379,7 +386,7 @@ body{overflow-x: hidden;}
     #t4{width: 130px;}
 
     #card2{
-        width: 35vw; 
+        width: 40vw; 
         height: 21vh;
     }
 
@@ -396,7 +403,7 @@ body{overflow-x: hidden;}
     }
 
 /* quaggio */
-    #quaggio{height: 70vh;}
+    #quaggio{height: 80vh;}
 
     #t5{width: 90px;}
 
@@ -412,7 +419,7 @@ body{overflow-x: hidden;}
         margin-top: -2vh;
     }
 
-    #box{margin-top: 14vh;}
+    #box{margin-top: 17vh;}
 
     #txt_1{
         width: 40vw;
@@ -421,9 +428,9 @@ body{overflow-x: hidden;}
     }
 
     #txt_2{
-        width: 38vw; height: 30vh;
+        width: 38vw;
         margin-top: -4vh;
-        margin-left: -2vw;
+        margin-left: -3vw;
         font-size: 11px;
     }
 }
@@ -483,7 +490,7 @@ body{overflow-x: hidden;}
 
     /* integrantes */
     #card2{
-        width: 30vw;
+        width: 40vw;
         margin-top: 5vh;
     }
 
