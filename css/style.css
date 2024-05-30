@@ -512,3 +512,134 @@ position: relative;}
 
     
 }
+
+@media only screen and (max-height: 550px){
+    #content_alt{
+        margin-top: 8vh;
+        height: 40vh;
+    }
+
+    .content{
+    width: 90vw;
+    margin-left: 5vw;
+    }
+
+    .title_1{font-size: 22px;}
+
+    .traco{margin-top: 9vh;}
+
+    .text2{
+        margin-top: 16vh;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    /* home */
+    #bg{background-size: 55vw;}
+
+    #logo{
+        width: 26vw;
+        margin-top: 19vh;
+        margin-left: 10vw;
+    }
+
+    #title{
+        font-size: 26px;
+        margin-top: 34vh;
+        margin-left: 57vw;
+    }
+
+    #txt{
+        width: 200px;
+        font-size: 14px;
+        margin-top: 63vh;
+        margin-left: 57vw;
+    }
+
+    /* redirect */
+    #redirect{height: 55vh;}
+
+    #card1{width: 20vw;}
+
+    #text1{ 
+        p{font-size: 12px};
+        h2{font-size: 16px};
+    }
+
+    /* sobre */
+    #t1{width: 150px;}
+
+    #divisao{
+        margin-top: 40vh;
+        height: 40vh;
+    }
+
+    #logo2{
+        width: 20vw;
+        margin-top: 23vh;
+    }
+
+    #mockup{
+        width: 20vw;
+        margin-top: 20vh;
+    }
+
+    /* Paleta */
+    #t2{width: 230px;}
+
+    #paleta-img{
+        width: 37vw;
+        margin-top: 22vh;
+    }
+
+    /* tipografia */
+    #t3{width: 160px;}
+
+    #tipografia_icon{
+        width: 45vw;
+        margin-top: 22vh;
+    }
+
+    /* integrantes */
+    #t4{width: 180px;}
+
+    #card2{width: 20vw; height: 60vh;}
+
+    #icon-card{
+        margin-top: 10vh;
+        width: 12vw; height: 12vw;
+    }
+
+    #text3{
+        p{font-size: 14px;}
+        h2{font-size: 18px;}
+    }
+
+    /* quaggio */
+    #t5{width: 120px;}
+
+    #box{
+        margin-top: 20vh;
+    }
+
+    #lg_quaggio{
+        width: 13vw;
+    }
+
+    #mockup_quaggio{
+        width: 19vw;
+        margin-top: -5vh;
+    }
+
+    #txt_1{
+        width: 38vw;
+        margin-left: 20vw;
+        font-size: 14px;
+    }
+
+    #txt_2{
+        width: 38vw;
+        margin-left: -4vw;
+        font-size: 14px;
+    }
+}
