@@ -259,40 +259,41 @@ body{overflow-x: hidden;}
     .text2{
         font-size: 12px;
         line-height: 15px;
-        margin-top: 17vh;
+        margin-top: 12vh;
     }
 
 /* home */
-    #home{height: 70vh;}
+    #home{height: 60vh;}
 
     #logo{
-        width: 150px;
-        margin-left: 10px;margin-top: 100px;
+        width: 28vw;
+        margin-left: 25px;
+        margin-top: 13vh;
     }
 
     #title{
-        font-size: 24px;
-        margin-left: 35vw;
-        margin-top: 22vh;
-        width: 250px;
-        text-align: center; letter-spacing: 1px;
+        font-size: 20px;
+        margin-left: 50vw;
+        margin-top: 21vh;
     }
 
     #txt{
-        font-size: 12px;
-        margin-left: 56vw;
-        margin-top: 38vh;
+        font-size: 10px;
+        margin-left: 50vw;
+        margin-top: 34vh;
         width: 150px;
-        text-align: center;
     }
 
     #bg{
-        width: 100vw; height: 70vh;
-        background-size: 60vw;
+        width: 100vw; height: 60vh;
+        background-size: 70vw;
     }
 
 /* redirect */
-    #redirect{height: 30vh;}
+    #redirect{
+        height: 40vh;
+        overflow: hidden;
+    }
 
     #card1{
         width: 100px; height: 200px;
@@ -305,8 +306,14 @@ body{overflow-x: hidden;}
     #icon3{ margin-top: -5px;}
 
     .content{
-        margin-left: 5vw; margin-top: 0px;
-        width: 90vw; height: 30vh;
+        margin-left: 5vw; margin-top: 5vh;
+        width: 90vw; height: 55vh;
+        position: absolute;
+        align-content: space-around
+    }
+
+    #content_alt{
+        height: 30vh;
     }
 
     #text1{ 
@@ -319,12 +326,12 @@ body{overflow-x: hidden;}
 
     .title_1{
         font-size: 16px;
-        margin-top: 10vh;
+        margin-top: 6vh;
     }
 
     .traco{
         height: 5px;
-        margin-top: 13vh;
+        margin-top: 9vh;
     }
 
     #t1{width: 110px;}
@@ -332,112 +339,92 @@ body{overflow-x: hidden;}
     #logo2{
         width: 22vw;
         margin-left: -15vw;
-    }
-
-        #divisao{
-        width: 5px; height: 20vh;
-        margin-top: 35vh;
-    }
-
-        #mockup{
-        width: 25vw;
         margin-top: 19vh;
+    }
+
+    #divisao{
+        width: 5px; height: 20vh;
+        margin-top: 31vh;
+    }
+
+    #mockup{
+        width: 25vw;
+        margin-top: 17vh;
         margin-left: 15vw;
     }
 
 /* paleta */
     #paleta{height: 60vh;}
 
-    #t2{
-        width: 170px;
-        margin-top: 5vh;
-    }
+    #t2{width: 170px;}
 
     #paleta-img{
-        width: 50vw;
-        margin-top: 16vh;
+        width: 60vw;
+        margin-top: 13vh;
     }
 
 /* tipografia */
     #tipografia{height: 60vh;}
 
-    #t3{    
-        width: 110px;
-        margin-top: 5vh;
-    }
+    #t3{width: 110px;}
 
     #tipografia_icon{
-        width: 55vw;
-        margin-top: 15vh;
+        width: 60vw;
+        margin-top: 13vh;
     }
 
 /* integrantes */
-    #integrantes{
-        height: 100vh;
-    }
+    #integrantes{height: 75vh;}
 
-    #content_alt{
-        align-content: space-around;
-        margin-top: 10vh;
-    }
-
-    #t4{
-        width: 130px;
-        margin-top: 5vh;
-    }
+    #t4{width: 130px;}
 
     #card2{
-        width: 35vw; height: 20vh;
-        margin-top: 10vh;
+        width: 35vw; 
+        height: 21vh;
     }
 
     #icon-card{
-        width: 20vw; height: 20vw;
-        margin-top: 8vh;
+        width: 18vw; height: 18vw;
+        margin-top: 5vh;
     }
 
     #text3{
+        line-height: 12px;
         margin-top: 1vh;
-        p{font-size: 12px};
-        h2{font-size: 16px};
+        p{font-size: 10px};
+        h2{font-size: 14px};
     }
 
 /* quaggio */
-    #t5{
-        width: 90px;
-        margin-top: 5vh;
-    }
+    #quaggio{height: 70vh;}
+
+    #t5{width: 90px;}
 
     #lg_quaggio{
         width: 25vw;
         margin-left: 3vw;
-        margin-top: 4vh;
+        margin-top: 2vh;
     }
 
     #mockup_quaggio{
         width: 35vw;
-        margin-top: 5vh;
         margin-left: 4vw;
+        margin-top: -2vh;
     }
 
-    #box{
-        width: 80vw; height: 70vh;
-        margin-top: 10vh;
-        display: flex; flex-wrap: wrap;
-        justify-content: space-around;
-    }
+    #box{margin-top: 14vh;}
 
     #txt_1{
-        width: 36vw;  height: 30vh;
-        margin-left: 16vw;
-        font-size: 12px;
+        width: 40vw;
+        margin-left: 12vw;
+        font-size: 11px;
     }
 
     #txt_2{
-        width: 36vw; height: 30vh;
+        width: 38vw; height: 30vh;
+        margin-top: -4vh;
         margin-left: -2vw;
-        margin-top: 4vh;
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
@@ -456,7 +443,7 @@ body{overflow-x: hidden;}
     }
 
     #txt{
-        margin-top: 52vh;
+        margin-top: 60vh;
         margin-left: 47vw;
     }
 
