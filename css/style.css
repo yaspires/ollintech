@@ -192,7 +192,7 @@ body{overflow-x: hidden;}
 
 #card2{
     margin-top: 10vh;
-    width: 30vh; height: 300px;
+    width: 20vw; height: 300px;
     display: flex; flex-wrap: wrap;
     justify-content: center; align-content: center;
 }
@@ -244,88 +244,35 @@ body{overflow-x: hidden;}
     margin-top: 4vh;
 }
 
-/* #footer{
-    position: relative;
-    display: flex;
-    justify-content: center;
+/* footer */
+#footer{
+    background-color: #1a1919;
   
 }
 
-#box1{
-    margin-top: 10vh;
-    width: 700px;
-    height: 450px;
-}
-
-#logo_3{
-    width: 450px; height: auto;
-    margin-left: 150px;
-    position: absolute;
-}
-
-#box2{
-    position: absolute;
-    width: 700px; height: 200px;
-    margin-top: 160px;
-    margin-left: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#info_card{
-    width: 300px; height: 100px;
-}
-
-#icon{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-#info{
-    position: absolute;
-    margin-top: 27px;
-    margin-left: 80px;
-    letter-spacing: 1px;
-    font-size: 18px;
-
-}
-
-#copyright{
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 190px;
-    letter-spacing: 2px;
-} */
-
 @media only screen and (max-width: 720px){
-    #navbar{height: 9vh;}
-
     #nav-icon{
-        width: 270px;
-        margin-left: 5vw;
+        width: 0px;
+        margin-left: 0;
     }
 
     .text2{
         font-size: 12px;
         line-height: 15px;
-        margin-top: 15vh;
+        margin-top: 17vh;
     }
 
 /* home */
     #home{height: 70vh;}
 
     #logo{
-        width: 0px;
-        margin-left: 1px;margin-top: 1px;
+        width: 150px;
+        margin-left: 10px;margin-top: 100px;
     }
 
     #title{
         font-size: 24px;
-        margin-left: 19vw;
+        margin-left: 35vw;
         margin-top: 22vh;
         width: 250px;
         text-align: center; letter-spacing: 1px;
@@ -333,7 +280,7 @@ body{overflow-x: hidden;}
 
     #txt{
         font-size: 12px;
-        margin-left: 30vw;
+        margin-left: 56vw;
         margin-top: 38vh;
         width: 150px;
         text-align: center;
@@ -399,15 +346,7 @@ body{overflow-x: hidden;}
     }
 
 /* paleta */
-    #paleta{height: 40vh;}
-
-    #title_alt{
-        margin-top: 2vh;
-    }
-
-    #text_alt{
-        margin-top: 7vh;
-    }
+    #paleta{height: 60vh;}
 
     #t2{
         width: 170px;
@@ -420,7 +359,7 @@ body{overflow-x: hidden;}
     }
 
 /* tipografia */
-    #tipografia{height: 40vh;}
+    #tipografia{height: 60vh;}
 
     #t3{    
         width: 110px;
@@ -500,4 +439,82 @@ body{overflow-x: hidden;}
         margin-top: 4vh;
         font-size: 12px;
     }
+}
+
+@media only screen and (min-width:721px) and (max-width: 992px){
+    #nav-icon{width: 250px;}
+
+    /* home */
+    #logo{
+        width: 30vw;
+        margin-left: 5vw;
+    }
+
+    #title{
+        font-size: 46px;
+        margin-left: 47vw;
+    }
+
+    #txt{
+        margin-top: 52vh;
+        margin-left: 47vw;
+    }
+
+    /* redirect */
+    #card1{ width: 20vw;}
+
+    #text1{
+        h2{font-size: 20px;}
+    }
+
+    /* sobre nos */
+    #logo2{
+        width: 25vw;
+        margin-left: -15vw;
+        margin-top: 21vh;
+    }
+
+    #divisao{
+        margin-top: 37vh;
+    }
+
+    #mockup{
+        margin-left: 15vw;
+        margin-top: 20vh;
+        width: 23vw;
+    }
+
+    /* paleta */
+    #paleta-img{
+        width: 50vw;
+    }
+
+    /* tipografia */
+    #tipografia_icon{
+        width: 50vw;
+    }
+
+    /* integrantes */
+    #card2{
+        width: 30vw;
+        margin-top: 5vh;
+    }
+
+    #icon-card{
+        width: 16vw; height: 16vw;
+    }
+
+    /* quaggio */
+    #lg_quaggio{
+        width: 20vw;
+        margin-top: 2vh;
+    }
+
+    #mockup_quaggio{
+        width: 30vw;
+        margin-top: 1vh;
+        margin-left: 2vw;
+    }
+
+    
 }
