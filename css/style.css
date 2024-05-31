@@ -3,7 +3,7 @@
     color: #f9f9f9;
 }
 
-#body{color: #1c1c1c;}
+#body{background-color: #1c1c1c;}
 
 #wrapper{
     width: 100vw;
@@ -115,7 +115,7 @@ position: relative;}
 #redirect{height: 100vh;
     position: relative;}
 
-#card1{
+.card1{
     width: 250px;
     height: 350px;
     display: flex; flex-wrap: wrap;
@@ -196,7 +196,7 @@ position: relative;}
 
 #t4{width: 230px;}
 
-#card2{
+.card2{
     margin-top: 10vh;
     width: 20vw; height: 300px;
     display: flex; flex-wrap: wrap;
@@ -206,7 +206,6 @@ position: relative;}
 #icon-card{
     border-radius: 50%;
     width: 11vw; height: 11vw;
-    background-color: #D5238E;
 }
 
 #text3{
@@ -229,8 +228,8 @@ position: relative;}
 }
 
 #mockup_quaggio{
-    width: 20vw;
-    margin-top: -3vh;
+    width: 23vw;
+    margin-top: -1vh;
 }
 
 #box{
@@ -247,7 +246,6 @@ position: relative;}
 
 #txt_2{
     width: 34vw; height: 30vh;
-    margin-left: -2vw;
     margin-top: 4vh;
 }
 
@@ -323,7 +321,7 @@ position: relative;}
         overflow: hidden;
     }
 
-    #card1{
+    .card1{
         width: 100px; height: 200px;
     }
 
@@ -385,19 +383,19 @@ position: relative;}
 
     #t4{width: 130px;}
 
-    #card2{
+    .card2{
         width: 40vw; 
         height: 21vh;
     }
 
     #icon-card{
-        width: 18vw; height: 18vw;
-        margin-top: 5vh;
+        width: 17vw; height: 17vw;
+        margin-top: 1vh;
     }
 
     #text3{
         line-height: 12px;
-        margin-top: 1vh;
+        margin-top: 2vh;
         p{font-size: 10px};
         h2{font-size: 14px};
     }
@@ -436,7 +434,7 @@ position: relative;}
 }
 
 @media only screen and (min-width:721px) and (max-width: 992px){
-    #nav-icon{width: 250px;}
+    #nav-icon{width: 210px;}
 
     /* home */
     #logo{
@@ -445,7 +443,7 @@ position: relative;}
     }
 
     #title{
-        font-size: 46px;
+        font-size: 44px;
         margin-left: 47vw;
     }
 
@@ -455,7 +453,7 @@ position: relative;}
     }
 
     /* redirect */
-    #card1{ width: 20vw;}
+    .card1{ width: 20vw;}
 
     #text1{
         h2{font-size: 20px;}
@@ -488,8 +486,13 @@ position: relative;}
         width: 50vw;
     }
 
+    .card2{
+        height: 30vh;
+        margin-top: 10vh;
+    }
+
     /* integrantes */
-    #card2{
+    .card2{
         width: 40vw;
         margin-top: 5vh;
     }
@@ -506,11 +509,12 @@ position: relative;}
 
     #mockup_quaggio{
         width: 30vw;
-        margin-top: 1vh;
+        margin-top: 4vh;
         margin-left: 2vw;
     }
 
-    
+    #txt_1{width: 37vw;}
+    #txt_2{width: 37vw;}
 }
 
 @media only screen and (max-height: 550px){
@@ -520,8 +524,8 @@ position: relative;}
     }
 
     .content{
-    width: 90vw;
-    margin-left: 5vw;
+        width: 90vw;
+        margin-left: 5vw;
     }
 
     .title_1{font-size: 22px;}
@@ -559,7 +563,7 @@ position: relative;}
     /* redirect */
     #redirect{height: 55vh;}
 
-    #card1{width: 20vw;}
+    .card1{width: 20vw;}
 
     #text1{ 
         p{font-size: 12px};
@@ -603,14 +607,15 @@ position: relative;}
     /* integrantes */
     #t4{width: 180px;}
 
-    #card2{width: 20vw; height: 60vh;}
+    .card2{width: 20vw; height: 60vh;}
 
     #icon-card{
-        margin-top: 10vh;
+        margin-top: 2vh;
         width: 12vw; height: 12vw;
     }
 
     #text3{
+        margin-top: 3vh;
         p{font-size: 14px;}
         h2{font-size: 18px;}
     }
@@ -628,7 +633,7 @@ position: relative;}
 
     #mockup_quaggio{
         width: 19vw;
-        margin-top: -5vh;
+        margin-top: -1vh;
     }
 
     #txt_1{
