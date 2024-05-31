@@ -225,7 +225,7 @@ position: relative;}
 #lg_quaggio{
     width: 13vw;
     margin-left: 6vw;
-    margin-top: 10vh;
+    margin-top: 6vh;
 }
 
 #mockup_quaggio{
@@ -410,6 +410,7 @@ position: relative;}
     #lg_quaggio{
         width: 25vw;
         margin-left: 3vw;
+        margin-top: 4vh
     }
 
     #mockup_quaggio{
