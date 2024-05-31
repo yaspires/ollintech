@@ -1,6 +1,11 @@
 *{
-    font-family: sans-serif;
+    font-family: kanit;
     color: #f9f9f9;
+}
+
+@font-face {
+    font-family: kanit;
+    src: url(../Kanit1/Kanit-Regular.ttf);
 }
 
 #body{background-color: #1c1c1c;}
@@ -34,9 +39,7 @@
         margin-left: 20%;
     }
 
-    #x{
-        width:57vw; height: 2px;
-    }
+    #x{width:57vw; height: 2px;}
 
     #nav-link{
         margin-right: 20px;
@@ -49,7 +52,6 @@
         background-color: #D5238E;
         border-radius: 30px;
     }
-
 
     .content{
         position: absolute;
@@ -112,8 +114,7 @@ position: relative;}
 }
 
 /* Redirect */
-#redirect{height: 100vh;
-    position: relative;}
+#redirect{height: 100vh; position: relative;}
 
 .card1{
     width: 250px;
@@ -133,8 +134,7 @@ position: relative;}
 }
 
 /* Sobre */
-#sobre{height: 100vh;
-    position: relative;}
+#sobre{height: 100vh; position: relative;}
 
 #logo2{
     position: absolute;
@@ -169,8 +169,7 @@ position: relative;}
 }
 
 /* Paleta */
-#paleta{height: 100vh;
-    position: relative;}
+#paleta{height: 100vh; position: relative;}
 
 #t2{width: 290px;}
 
@@ -180,8 +179,7 @@ position: relative;}
 }
 
 /* Tipografia */
-#tipografia{height: 100vh;
-    position: relative;}
+#tipografia{height: 100vh; position: relative;}
 
 #t3{width: 200px;}
 
@@ -191,8 +189,7 @@ position: relative;}
 }
 
 /* Integrantes*/
-#integrantes{height: 100vh;
-    position: relative;}
+#integrantes{height: 100vh; position: relative;}
 
 #t4{width: 230px;}
 
@@ -217,8 +214,7 @@ position: relative;}
 }
 
 /* Quaggio */
-#quaggio{height: 100vh;
-    position: relative;}
+#quaggio{height: 100vh; position: relative;}
 
 #t5{width: 150px;}
 
@@ -233,13 +229,6 @@ position: relative;}
     margin-top: -1vh;
 }
 
-#box{
-    width: 80vw; height: 70vh;
-    margin-top: 10vh;
-    display: flex; flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 #txt_1{
     width: 34vw;  height: 30vh;
     margin-left: 10vw;
@@ -252,10 +241,8 @@ position: relative;}
 }
 
 /* footer */
-#footer{
-    background-color: #1a1919;
-  
-}
+#footer{background-color: #1a1919;}
+
 
 @media only screen and (max-width: 720px){
     #nav-icon{
@@ -266,13 +253,9 @@ position: relative;}
     .content{
         margin-left: 5vw; margin-top: 5vh;
         width: 90vw; height: 55vh;
-        position: absolute;
-        align-content: space-around
     }
 
-    #content_alt{
-        height: 30vh;
-    }
+    #content_alt{height: 30vh;}
 
     .title_1{
         font-size: 16px;
@@ -323,19 +306,15 @@ position: relative;}
         overflow: hidden;
     }
 
-    .card1{
-        width: 100px; height: 200px;
-    }
+    .card1{width: 100px; height: 200px;}
 
     #icon1{ margin-left: 2px;}
-
     #icon2{ margin-top: 0px;}
-
     #icon3{ margin-top: -5px;}
 
     #text1{ 
         p{font-size: 8px};
-        h2{font-size: 11px; font-weight: 800;};
+        h2{font-size: 11px};
     }
 
 /* sobre nós */
@@ -385,10 +364,7 @@ position: relative;}
 
     #t4{width: 130px;}
 
-    .card2{
-        width: 40vw; 
-        height: 21vh;
-    }
+    .card2{width: 40vw; height: 21vh;}
 
     #icon-card{
         width: 17vw; height: 17vw;
@@ -455,7 +431,7 @@ position: relative;}
     /* redirect */
     .card1{ width: 20vw;}
 
-    #text1{
+    #text1{ 
         h2{font-size: 20px;}
     }
 
@@ -466,9 +442,7 @@ position: relative;}
         margin-top: 21vh;
     }
 
-    #divisao{
-        margin-top: 37vh;
-    }
+    #divisao{margin-top: 37vh;}
 
     #mockup{
         margin-left: 15vw;
@@ -477,14 +451,10 @@ position: relative;}
     }
 
     /* paleta */
-    #paleta-img{
-        width: 50vw;
-    }
+    #paleta-img{width: 50vw;}
 
     /* tipografia */
-    #tipografia_icon{
-        width: 50vw;
-    }
+    #tipografia_icon{width: 50vw;}
 
     .card2{
         height: 30vh;
@@ -497,9 +467,7 @@ position: relative;}
         margin-top: 5vh;
     }
 
-    #icon-card{
-        width: 16vw; height: 16vw;
-    }
+    #icon-card{width: 16vw; height: 16vw;}
 
     /* quaggio */
     #lg_quaggio{
