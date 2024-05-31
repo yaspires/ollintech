@@ -417,7 +417,8 @@ position: relative;}
         margin-top: -2vh;
     }
 
-    #box{margin-top: 17vh;}
+    #box{margin-top: 30vh;
+    background-color: #D5238E;}
 
     #txt_1{
         width: 40vw;
@@ -519,7 +520,7 @@ position: relative;}
 
 @media only screen and (max-height: 550px){
     #content_alt{
-        margin-top: 8vh;
+        margin-top: 5vh;
         height: 40vh;
     }
 
