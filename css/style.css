@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100vh;
     position: absolute;
-    font-size: 20px;
+    font-size: 23px;
     text-align: justify;
     overflow-x: hidden;
 }
@@ -210,6 +210,7 @@ position: relative;}
 
 #text3{
     margin-top: 3vh;
+    width: 200px;
     text-align: center;
     p{font-size: 18px};
     h2{font-size: 22px; font-weight: 800;};
@@ -224,7 +225,7 @@ position: relative;}
 #lg_quaggio{
     width: 13vw;
     margin-left: 6vw;
-
+    margin-top: 6vh;
 }
 
 #mockup_quaggio{
@@ -242,6 +243,7 @@ position: relative;}
 #txt_1{
     width: 34vw;  height: 30vh;
     margin-left: 10vw;
+    margin-top: 10vh;
 }
 
 #txt_2{
@@ -401,36 +403,33 @@ position: relative;}
     }
 
 /* quaggio */
-    #quaggio{height: 80vh;}
+    #quaggio{height: 70vh;}
 
     #t5{width: 90px;}
 
     #lg_quaggio{
         width: 25vw;
         margin-left: 3vw;
-        margin-top: 2vh;
+        margin-top: 7vh;
     }
 
     #mockup_quaggio{
         width: 35vw;
         margin-left: 4vw;
-        margin-top: -2vh;
     }
-
-    #box{margin-top: 30vh;
-    background-color: #D5238E;}
 
     #txt_1{
         width: 40vw;
         margin-left: 12vw;
-        font-size: 11px;
+        margin-top: 13vh;
+        font-size: 12px;
     }
 
     #txt_2{
         width: 38vw;
-        margin-top: -4vh;
+        margin-top: -5vh;
         margin-left: -3vw;
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 
@@ -624,28 +623,25 @@ position: relative;}
     /* quaggio */
     #t5{width: 120px;}
 
-    #box{
-        margin-top: 20vh;
-    }
-
     #lg_quaggio{
         width: 13vw;
+        margin-top: 9vh;
     }
 
-    #mockup_quaggio{
-        width: 19vw;
-        margin-top: -1vh;
-    }
+    #mockup_quaggio{width: 19vw;
+    margin-top: -1vh;}
 
     #txt_1{
         width: 38vw;
         margin-left: 20vw;
+        margin-top: 14vh;
         font-size: 14px;
     }
 
     #txt_2{
         width: 38vw;
         margin-left: -4vw;
+        margin-top: 2vh;
         font-size: 14px;
     }
 }
