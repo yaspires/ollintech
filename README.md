@@ -1,3 +1,3 @@
 # ollintech
 website ollintech:
-http://ollintech-web.com/
+https://yaspires.github.io/ollintech/
