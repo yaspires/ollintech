@@ -107,7 +107,7 @@ position: relative;}
 
 #txt{
     position: absolute;
-    margin-top: 65vh;
+    margin-top: 63vh;
     margin-left: 53vw;
     width: 350px;
     text-align: left;
@@ -175,7 +175,7 @@ position: relative;}
 
 #paleta-img{
     width: 37vw;
-    margin-top: 15vh;
+    margin-top: 16vh;
 }
 
 /* Tipografia */
@@ -185,7 +185,7 @@ position: relative;}
 
 #tipografia_icon{
     width: 39vw;
-    margin-top: 13vh;
+    margin-top: 14vh;
 }
 
 /* Integrantes*/
@@ -226,7 +226,7 @@ position: relative;}
 
 #mockup_quaggio{
     width: 23vw;
-    margin-top: -1vh;
+    margin-top: 0vh;
 }
 
 #txt_1{
@@ -241,8 +241,90 @@ position: relative;}
 }
 
 /* footer */
-#footer{background-color: #1a1919;}
+#footer{
+    background-color: #151515;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
 
+#loc:hover{
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+#insta:hover{
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+#phone:hover{
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+#email:hover{
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+#separa{
+    height: 15px
+}
+
+#txt_copy{
+    width: 250px;
+    margin-left: 40%;
+}
+
+#firula1{
+    background-color: deeppink;
+    width:3px;
+    border-radius: 20px;
+    height:60px;
+    margin-left: 20px
+}
+
+#image{
+    margin-top: 8px;
+    width: 70px
+}
+
+#icon-footer{
+    width: 30px
+}
+
+#txt-footer{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#inv{
+    width: 61px;
+}
+
+#inv2{
+    width: 80px;
+}
+
+#first{
+    display:flex;
+    color: white;
+    margin-left: 41%
+}
+
+#icons{
+   margin-left: 34%;
+    color: white;
+}
+
+#bloco1{
+    display:flex;
+}
+
+#bloco2{
+    display:flex;
+}
 
 @media only screen and (max-width: 720px){
     #nav-icon{
@@ -392,13 +474,13 @@ position: relative;}
     #mockup_quaggio{
         width: 35vw;
         margin-left: 4vw;
-        margin-top: 3vh;
+        margin-top: 2vh;
     }
 
     #txt_1{
         width: 40vw;
         margin-left: 12vw;
-        margin-top: 25vh;
+        margin-top: 23vh;
         font-size: 12px;
     }
 
@@ -407,6 +489,38 @@ position: relative;}
         margin-top: -3vh;
         margin-left: -3vw;
         font-size: 12px;
+    }
+
+    /* footer */
+    #footer{font-size: 12px;}
+
+    #inv{width: 66px;}
+
+    #txt-footer{
+        font-size: 16px;
+    }
+
+    #firula1{
+        height:45px;
+        margin-left: 20px
+    }
+    
+    #image{
+        margin-top: 8px;
+        width: 55px
+    }
+    
+    #icon-footer{
+        width: 20px
+    }
+
+    #first{margin-left: 21%;}
+
+    #icons{margin-left: 6%;}
+
+    #txt_copy{
+        margin-left: 25%;
+        font-size: 14px;
     }
 }
 
@@ -484,6 +598,10 @@ position: relative;}
 
     #txt_1{width: 37vw;}
     #txt_2{width: 37vw;}
+
+    #first{margin-left: 34%;}
+    #icons{margin-left: 21%;}
+    #txt_copy{margin-left: 34%;}
 }
 
 @media only screen and (max-height: 550px){
