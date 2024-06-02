@@ -386,24 +386,25 @@ position: relative;}
     #lg_quaggio{
         width: 25vw;
         margin-left: 3vw;
-        margin-top: 7vh;
+        margin-top: 15vh;
     }
 
     #mockup_quaggio{
         width: 35vw;
         margin-left: 4vw;
+        margin-top: 3vh;
     }
 
     #txt_1{
         width: 40vw;
         margin-left: 12vw;
-        margin-top: 13vh;
+        margin-top: 25vh;
         font-size: 12px;
     }
 
     #txt_2{
         width: 38vw;
-        margin-top: -5vh;
+        margin-top: -3vh;
         margin-left: -3vw;
         font-size: 12px;
     }
@@ -472,7 +473,7 @@ position: relative;}
     /* quaggio */
     #lg_quaggio{
         width: 20vw;
-        margin-top: 2vh;
+        margin-top: 8vh;
     }
 
     #mockup_quaggio{
